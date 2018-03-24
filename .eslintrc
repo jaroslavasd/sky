@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true
+  },
+  "rules": {
+    "class-methods-use-this": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-multi-assign": ["off"],
+    "no-unused-expressions": "off"
+  },
+  "globals": {
+    "allure": true,
+    "browser": true,
+    "request": true,
+    "expect": true
+  }
+}
