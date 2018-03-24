@@ -8,7 +8,6 @@ describe('claims', () => {
 
     claimPage.setFlightDestinations('VNO', 'PAR');
 
-
     claimPage.setConnections(0);
     claimPage.setDate('2018', '2', '3');
     claimPage.setFlightNumber('BA', '3425');

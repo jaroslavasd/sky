@@ -49,11 +49,6 @@ class ClaimPage extends Page {
   isStepVisible(stepNumber, waitForStep = false) {
     if (waitForStep) {
       this.waitForStepsCountToChange();
-      // try {
-      //   browser.waitUntil(() => browser.isVisible(this.getStepSelector(stepNumber)), timeout);
-      // } catch (error) {
-      //   return false;
-      // }
     }
 
     return browser.isVisible(this.getStepSelector(stepNumber));
