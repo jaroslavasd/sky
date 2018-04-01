@@ -1,9 +1,8 @@
 # Description
 
-Where are two tests in a suite,
+There are two tests in the suite,
 
 one which passes successfully
-
 ```
 claims eligibility check should be completed
 ```
